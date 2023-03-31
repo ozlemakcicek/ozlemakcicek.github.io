@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
+body {
+    background-image: url("background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+#container {
+
+    background-color: rgba(0, 0, 0, 0.499);
+    width: 95%;
+    margin: auto;
+    height: 100%;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+#title {
+    font-family: 'Alfa Slab One';
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 5%;
+    text-align: center;
+
+}
+
+span {
+    color: red
+}
+
+h4 {
+    font-weight: 600;
+
+}
+
+#description {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    width: 50%;
+
+}
+
+#survey-form {
+
+
+
+    color: white;
+    font-size: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+
+
+}
+
+.box input {
+    padding: 4%;
+
+    width: 80%;
+
+}
+
+
+.box select {
+
+    padding: 2%;
+    width: 79%;
+}
+
+.box input[type=checkbox] {
+    width: 5%;
+
+}
+
+.box input[type=radio] {
+    width: 5%;
+}
+
+.box textarea {
+    width: 70%;
+
+
+}
+
+#submit {
+    color: white
+}
+
+input[type=submit] {
+    background-color: rgb(236, 54, 54);
+    border-radius: 30px;
+    width: 40%;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin: 5% 15% 2%;
+
+
+}
