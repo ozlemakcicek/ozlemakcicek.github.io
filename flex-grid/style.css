@@ -1,0 +1,229 @@
+
+.ekran{
+    width: 40em;
+    height: 80vh;
+}
+
+
+.container{
+
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: repeat(5,15vh)15vh; 
+
+
+ 
+   background-color: rgb(58, 53, 53); 
+
+    
+  
+   
+}
+
+.parca{
+ font-size: 20px;
+  margin:1em 0.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-left: 0.5em;
+    
+}
+.ust{
+    background-color: pink; 
+  
+    height: 3.5em;
+    
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+    margin-top: 0.6rem;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: flex;
+    align-items: center;
+    
+}
+.parca1{
+    background-color: rgb(127, 221, 127);
+    color: white;
+    padding: 0.6em 2em;
+    margin-left: 0.2em;
+   
+    border: 2px solid black;
+  
+    
+    
+}
+
+.parca2{
+    background-color: rgb(86, 189, 227);
+    color: white;
+    padding: 0.6em 10em;
+    border: 2px solid black;
+    margin-left: 0.2em;
+ 
+}
+
+.parca3{
+    background-color: red; 
+    color: white;
+
+
+    grid-column-start: 1; 
+    grid-column-end:7 ;
+
+    grid-row-start: 2;
+    grid-row-end:4 ;
+
+
+
+    margin-left: 0.5em;
+    margin-top: -3em;
+   margin-bottom: 7em;
+   margin-right: 1em;
+}
+
+
+
+.parca4 {
+    background-color: rgb(124, 225, 124);
+
+    grid-row-start: 4;
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: inline-block;
+  
+    margin-top: -6em;
+margin-bottom: 8em;
+margin-right: 0.8em;
+
+   
+
+
+
+}
+.parca5{
+    grid-row-start: 4; 
+     grid-column-start: 3;
+    grid-column-end: 5;
+    background-color:rgb(124, 225, 124);
+
+
+
+display: inline-block;
+        margin-top: -6em;
+            margin-bottom: 8em;
+            margin-left: -0.7em;
+            margin-right: 1em;
+
+   
+} 
+.parca6{
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color:rgb(124, 225, 124);
+ 
+
+    display: inline-block;
+    margin-top: -6em;
+        margin-bottom: 8em;
+        margin-left: 4.5em;
+        margin-right: 1em;
+
+       
+      
+       
+}
+
+
+.parca7{
+    background-color: orange;
+    
+    grid-row-start: 5;
+    /* grid-column-start: 1; */
+    display: inline-block;
+  
+  
+      margin-top: -5em; 
+      margin-bottom: 7em; 
+      margin-left: 3em;
+      margin-right: -3em;
+}
+.parca8 {
+    background-color: orange;
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+display: inline-block;
+margin-left: 5em;
+margin-right: -1em;
+margin-top: -5em;
+    margin-bottom: 7em;
+
+}
+.parca9{
+    grid-row-start: 5;
+    grid-column-start: 5;
+    
+    background-color: orange;
+display: inline-block;
+
+
+    margin-top: -5em;
+    margin-bottom: 7em;
+    margin-left: 3em;
+    margin-right: -3em;
+   
+}
+.parca10 {
+    background-color: rgb(5, 200, 5);
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+display: inline-block;
+    margin-top: -4em;
+        margin-bottom:6em; 
+        margin-left:2em; 
+        margin-right: 
+    
+}
+.parca11 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+        grid-column-end: 4;
+
+    background-color: rgb(5, 200, 5);
+    display: inline-block;
+        margin-top: -4em;
+        margin-bottom: 6em;
+        margin-left: 6em;
+        margin-right: ;
+}
+.parca12{
+    background-color: rgb(5, 200, 5);
+    grid-row-start: 6;
+    grid-column-start: 4;
+    display: inline-block;
+        margin-top: -4em;
+        margin-bottom: 6em;
+ 
+}
+.parca13 {
+    background-color: rgb(5, 200, 5);
+    grid-row-start: 6;
+    grid-column-start:5 ;
+    grid-column-end: 7;
+
+    display: inline-block;
+        margin-top: -4em;
+        margin-bottom: 6em;
+        margin-right: 2em;
+}

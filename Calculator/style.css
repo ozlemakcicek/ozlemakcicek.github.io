@@ -1,0 +1,91 @@
+
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    grid-template-rows: repeat(5,8vh);
+    
+    width:30em;
+    height: 35em;
+ 
+    background-color: black;
+    color: white;
+   
+   
+   border-radius: 3rem;
+
+   margin: auto;
+
+padding: 15em 3px 1px 15px;
+  gap: 2rem 2px;
+
+   margin-top: 2em;
+   
+}
+.calc{
+
+    border: 1px solid black;
+   border-radius:50%;
+
+width: 6rem;
+height: 6rem;
+
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.calc:hover{
+    background-color: rgba(101, 94, 94, 0.9);
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.orange:hover{
+    background-color: rgba(237, 169, 42, 0.8);
+}
+.grey{
+    background-color: rgb(171, 166, 166);
+}
+
+
+ .white{
+    background-color:rgb(55, 54, 54);
+    color: white;
+ }
+ .white1{
+    background-color: rgb(47, 47, 47);
+        color: white;
+       
+       grid-column: 1/3;
+       width: 5.5em;
+       border: 1px solid black;
+       border-radius:3em ;
+       justify-content: left;
+       padding-left: 1em;
+     
+    
+ }
+
+ .grey1{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+background-color: rgb(171, 166, 166);
+ }
+#arti{
+    margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 40px;
+}
+ 
+ #eksi{
+margin-top: -37px;
+    font-size: 45px;
+ }

@@ -1,0 +1,43 @@
+body{
+    width: 15%;
+    margin: 10rem auto;
+}
+
+.acilir-menu ul{
+   display: none;
+    border: 2px solid black;
+    border-top: 1px;
+    margin: 0px 3rem;
+    margin-left: 11%;
+  padding-left: 50px;
+ 
+    
+}
+.acilir-menu:hover .ul1{
+     display:block;}
+
+
+
+
+.ul1{
+  background-color: rgb(215, 215, 50);
+
+}
+
+
+
+
+h3{
+    padding: 1rem 1rem ;
+   
+    font-weight: lighter;
+margin: 0px 2rem;
+border: 2px solid black;
+text-align: center;
+margin-right: 22%;
+
+}
+ h3:hover{
+    background-color: rgb(113, 111, 110);
+color: white;
+}

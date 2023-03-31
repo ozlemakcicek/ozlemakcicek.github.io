@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.genel{
+    margin: 10rem;
+    
+    
+}
+.ara{
+    
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 11px;
+    width: 21rem;
+
+
+}
+
+.div2{
+    width: 20rem;
+    height:40px;
+  background-color: rgb(70, 67, 67);
+  border-radius: 2rem;
+}
+.div3{
+    
+    position: absolute;
+    left:26rem ;
+    
+    
+}
+#button{
+    background-color: orange;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 3rem;
+    font-weight: bold;
+
+    
+}
+i{
+    position: absolute;
+    top: 11.5rem;
+    left: 29rem;
+    
+    
+}
