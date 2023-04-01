@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box {
+    margin: 10rem 10rem;
+    width: 20rem;
+    height: 16rem;
+
+}
+
+.box2 {
+    background-color: rgb(51, 47, 47);
+    position: absolute;
+    left: 4rem;
+    top: 0rem;
+
+}
+
+.box1 {
+    width: 20rem;
+    background-color: orange;
+
+}
+
+.baslik {
+
+    color: white;
+    background-color: rgb(144, 96, 7);
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.solok {
+    color: black;
+
+    float: right;
+
+}
+
+.sagok {
+    color: black;
+    font-size: larger;
+    float: left;
+}
+
+ul {
+    padding-top: 1rem;
+}
+
+
+li {
+
+    list-style-type: none;
+    padding-left: 4rem;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.box1:hover {
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.box1:hover .sagok {
+
+    display: none;
+
+    /* 3s, ease-in-out; */
+    transform: translateX(-50px);
+    transition: transform 100s;
+}
