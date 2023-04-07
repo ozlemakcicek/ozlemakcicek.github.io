@@ -6,7 +6,7 @@
 }
 
 .home-bgImg-container {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   background-position: center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/Omar-Sy-Lupin.png");
@@ -15,7 +15,7 @@
 }
 
 .home {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,8 +69,7 @@
 }
 
 .project-bgImg-container {
-  border: 2px solid red;
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   background-position: center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/Omar-Sy-Lupin.png");
@@ -117,7 +116,7 @@
 }
 
 .about-bgImg-container {
-  height: 75vh;
+  height: 50vh;
   width: 100%;
   background-position: center center;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/Omar-Sy-Lupin.png");

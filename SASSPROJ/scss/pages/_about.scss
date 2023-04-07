@@ -1,6 +1,6 @@
 .about-bgImg-container{
     // border: 2px solid red;
-    @include bgImage(75vh,$main-bgImage-path);
+    @include bgImage(50vh,$main-bgImage-path);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
