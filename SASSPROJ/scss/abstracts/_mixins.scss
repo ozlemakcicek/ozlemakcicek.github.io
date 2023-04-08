@@ -22,8 +22,8 @@
         background: linear-gradient(
             to right, rgba($primary-color, 0.9),
             rgba($primary-color, 0.3),
-),
-url($url);
+    ),
+    url($url);
     background-repeat: no-repeat;  
     background-size: cover;
 }
