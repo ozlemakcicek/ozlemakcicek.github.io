@@ -264,6 +264,12 @@ footer.middle {
   .nav .nav_link {
     font-size: 1rem;
   }
+  .nav .about_bio-image {
+    margin-top: 1rem;
+  }
+  .nav .about_bio-image p {
+    margin-bottom: 1rem;
+  }
   .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
