@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<style>
+   
+    .mb-3 {
+        flex-direction: column !important;
+    }
+
+    i {
+        position: absolute;
+        top: 3.7em !important;
+        left: 0.6rem !important;
+ 
+    }
+
+    .i1 {
+        position: absolute;
+        top: 2.7em !important;
+        left: 0.6rem !important;
+
+
+
+    }
+
+    .i2 {
+        position: absolute;
+        top: 8em !important;
+        left: 0.6rem !important;
+
+    }
+
+    .i3 {
+        position: absolute;
+        top: 18em !important;
+        left: 0.6rem !important;
+    }
+
+    .i4 {
+        position: absolute;
+        top: 23.5em !important;
+        left: 0.6rem !important;
+    }
+
+    .i5 {
+        position: absolute;
+        top: 28.7em !important;
+        left: 0.6rem !important;
+    }
+
+
+    button.btn {
+        margin-left: 22rem !important;
+        background-color: rgb(234, 122, 24);
+        
+    }
+
+
+
+    .card-text {
+        color: rgb(231, 125, 64);
+    }
+
+
+
+    .no1 {
+        float: right;
+        padding-right: 4rem;
+    }
+
+    .no2 {
+        float: right;
+        padding-right: 4rem;
+    }
+
+    hr {
+        width: 80% !important;
+    }
+
+    a.btn{
+       background-color: rgb(107, 104, 104);
+    }
+    .w-25{
+        background-color: rgb(196, 196, 196) !important;
+    }
+</style>
+
+
+
+
+
+
+
+<body>
+    <h1 class="text-center mt-3 mb-5">Checkout</h1>
+
+    <div class="container">
+
+        <div class="row">
+            <h5 class="text-muted">Contact information</h5>
+            <div class="col-sm-6 col-md-6 ">
+                <form class="position-relative">
+                    <div class="mb-3  ">
+                        <label for="exampleInputEmail1" class="form-label text-muted">Email</label>
+                        <input type="email" class="form-control ps-5  " id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter your email...">
+        <i class=" fa-solid fa-envelope text-muted i1 "></i>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Phone</label>
+                        <input type="password" class="form-control ps-5" id="exampleInputPassword1"
+                            placeholder="Enter your phone...">
+                        <i class="fa-solid fa-phone text-muted position-absolute i2"></i>
+                    </div>
+                    <h5 class="mt-5">Shipping address</h5>
+                    <div class="mb-3 mt-3">
+                        <label for="exampleInputPassword1" class="form-label">Full name</label>
+                        <input type="password" class="form-control ps-5" id="exampleInputPassword1"
+                            placeholder="Enter your Full name...">
+                        <i class="fa-solid fa-user-large text-muted i3"></i>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Adress</label>
+                        <input type="password" class="form-control ps-5" id="exampleInputPassword1"
+                            placeholder="Enter your address..."">
+                <i class=" fa-solid fa-house text-muted i4"></i>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">City</label>
+                        <input type="password" class="form-control ps-5" id="exampleInputPassword1"
+                            placeholder="Enter your city...">
+                        <i class="fa-solid fa-city text-muted i5"></i>
+                    </div>
+
+
+                    <div class="butun d-flex ">
+                        <div class=" position-relative pe-3">
+                            <label for="exampleFormControlInput1" class="form-label mt-3">Country</label>
+                            <select class="form-select  ps-5" aria-label="Default select example">
+
+                                <option selected>Turkey</option>
+                                <option value="1">Germany</option>
+                                <option value="2">England</option>
+                                <option value="3">USA</option>
+                            </select>
+                            <i class="fa-solid fa-earth-americas text-muted"></i>
+                        </div>
+
+
+                        <div class="mb-3 position-relative">
+                            <label for="exampleFormControlInput1" class="form-label mt-3">Post Code</label>
+                            <input type="number" class="form-control  ps-5" id="frm7"
+                                placeholder="Enter your post code..">
+                            <i class="fa-solid fa-envelopes-bulk text-muted"></i>
+                        </div>
+                    </div>
+
+
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">See this information next time</label>
+                    </div>
+                    <button type="submit" class="btn text-white p-3 rounded-4 fw-medium mt-4  ">Continue</button>
+                </form>
+            </div>
+
+
+
+
+
+            <div class="col-sm-6 col-md-6 ">
+
+                <div class="card mb-3" style="max-width: 400px; background-color: rgb(227, 227, 227); border-style: none; margin-left: 2rem;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/photo1.png" class="img-fluid rounded-3  m-3" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ms-3">
+                                <h5 class="card-title">Vintage Backbag</h5>
+                                <p class="card-text fw-semibold">$54.99 <span
+                                        class="text-decoration-line-through text-dark">$94.99</span></p>
+
+
+
+                                <a href="#" class="btn  border border-1 border-dark w-50 disabled d-flex">
+                                    <div class="w-25 h-25 rounded-1 text-dark fw-bolder ">- </div>
+                                    <div class=" ms-2 me-2 text-dark  ">1</div>
+                                    <div class="w-25 h-25  rounded-1 text-dark fw-bolder ">+</div>
+
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/photo2.png" class="img-fluid rounded-3 m-3" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body ms-3">
+                                <h5 class="card-title">Levi Shoes</h5>
+                                <p class="card-text fw-semibold">$74.99 <span
+                                        class="text-decoration-line-through text-dark">$124.99</span> </span></p>
+                                <a href="#" class="btn  border border-1 border-dark w-50 disabled d-flex">
+                                    <div class="w-25 h-25  rounded-1 text-dark fw-bolder ">- </div>
+                                    <div class=" ms-2 me-2 text-dark   ">1</div>
+                                    <div class="w-25 h-25  rounded-1 text-dark fw-bolder ">+</div>
+                                </a>
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                        <hr class="ms-4 mt-5 mb-0 ">
+                        <div class="">
+                            <span class="ps-4 ">Shipping</span>
+                            <span class="no1">$19</span>
+
+                        </div>
+                        <hr class="ms-4 mt-2 mb-0">
+                        <div>
+                            <span class="ps-4  d-inline-block mb-2  ">Total</span>
+                            <span class="no2">$148.98</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
