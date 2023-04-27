@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+/* .card-text {
+    color: rgb(231, 125, 64);
+} */
+
+
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+
+hr {
+    width: 95% !important;
+}
+
+
+.minus,.plus {
+    background-color: rgb(196, 196, 196) !important;
+    margin: 3px;
+    padding: 6px 10px;
+    cursor: pointer;
+
+    
+}
+
+.buton{
+    border-radius: 3px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
