@@ -172,4 +172,4 @@ const getWeatherDataFromApi = async () => {
     }, 5000);
   };
 
-}
+};
