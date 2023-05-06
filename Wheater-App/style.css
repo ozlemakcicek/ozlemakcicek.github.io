@@ -40,12 +40,15 @@ input {
   
 }
 
-img {
+img{
   display: block;
   width: 100%;
   height: auto;
-  
+
 }
+
+
+
 img#de{
   width: 40px;
 }
@@ -63,7 +66,9 @@ body {
   background: var(--bg_main);
   color: var(--text_dark);
   padding: 70px;
+
 }
+
 .buton{
   display: flex;
   
@@ -81,9 +86,10 @@ body {
 button .compass{
   width: 50px;
 border-radius: 50%;
-
-
 }
+
+
+
 /* SECTION #1
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-banner {
@@ -119,14 +125,17 @@ border-radius: 50%;
   font-weight: bold;
   letter-spacing: 0.1em;
   padding: 15px 20px;
+
   margin-left: 15px;
   border-radius: 5px;
   background: var(--red);
   transition: background 0.3s ease-in-out;
+ 
 }
 
 .top-banner form button:hover {
   background: var(--darkred);
+  
 }
 
 .top-banner form .msg {
@@ -216,8 +225,9 @@ border-radius: 50%;
 }
 
 #logo{
-  width: 50rem;
+  width: 60rem;
 margin-bottom: 5rem;
+margin-right: 15rem;
 }
 
 /* MQ
@@ -225,6 +235,7 @@ margin-bottom: 5rem;
 @media screen and (max-width: 1000px) {
   body {
     padding: 30px;
+    
   }
   
   .ajax-section .cities {
@@ -271,12 +282,15 @@ margin-bottom: 5rem;
 @media screen and (max-width: 500px) {
   body {
     padding: 15px;
+ 
+    
   }
   
   .ajax-section .cities {
     grid-template-columns: repeat(1, 1fr);
   }
-}
+
+       
 
 
 /* API Key banner
