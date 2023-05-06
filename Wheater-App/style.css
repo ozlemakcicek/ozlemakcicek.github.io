@@ -78,7 +78,7 @@ body {
   padding: 0 15px;
 }
 
-.compass{
+button .compass{
   width: 50px;
 border-radius: 50%;
 
