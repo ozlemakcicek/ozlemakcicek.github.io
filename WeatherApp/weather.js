@@ -34,7 +34,7 @@ console.log(apiKey);
 
 
 locate.addEventListener("click", () => {
-  navigator.geolocation?.getCurrentPosition(({ coords }) => {
+  navigator.geolocation?.getCurrentPosition(({ coords }) => {  //hazir bir yapi koum almak icin
     const { latitude, longitude } = coords;
     url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}&lang=${lang}`;
 
