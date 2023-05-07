@@ -84,6 +84,7 @@ const getWeatherDataFromApi = async () => {
     //Data Destruction
 
     const { main, name, weather, sys } = res; //fetch
+    // const { main, name, weather, sys } = response.data; //axios
 
     const iconUrlAWS = `https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${weather[0].icon}.svg`;
 
