@@ -92,7 +92,7 @@ const getWeatherDataFromApi = async () => {
 
     //li olusturma
 
-    if (cities.indexOf(name) == -1) {
+    if ((cities.length>=0)&&cities.indexOf(name) == -1) {
       // ayni isim girince listeye eklemesin istedik
       cities.unshift(name);
 
@@ -149,4 +149,37 @@ const getWeatherDataFromApi = async () => {
       msgSpan.innerText = "";
     }, 5000);
   }
-};
+
+
+} 
+
+searchEl.onclick=()=>{
+  if (!input.value) {
+  // alert("Please search for a city 😉");
+ 
+   if (lang == "de") {
+      msgSpan.innerText = `Suchen Sie bitte eine Stadt! 😉`;
+    } else {
+      msgSpan.innerText = `Please search for a city 😉`;
+    }
+
+    setInterval(() => {
+      msgSpan.innerText = "";
+    }, 5000);
+  }
+}
+
+
+
+
+// if (!cities.length >= 0) {
+//   msgSpan.innetText = ` Please search for a city 😉`;}
+//   // setInterval(() => {
+//   //   msgSpan.innetText = "";
+//   // }, 3000);
+
+
+
+
+
+
