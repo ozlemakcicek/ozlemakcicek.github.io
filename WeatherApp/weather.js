@@ -26,8 +26,8 @@ let cities = [];
 
 
 // const apiKey="15d5ebe5cb320007963e8c229c7d55c8"
-// localStorage.setItem("apiKey",
-// EncryptStringAES("15d5ebe5cb320007963e8c229c7d55c8"))
+localStorage.setItem("apiKey",
+EncryptStringAES("15d5ebe5cb320007963e8c229c7d55c8"))
 
 const apiKey = DecryptStringAES(localStorage.getItem("apiKey"));
 console.log(apiKey);
