@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/aes.js"></script>
+    <script src="./js/Extentions.js"></script>
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+</head>
+
+<body>
+    <section class="top-banner">
+        <div class="container">
+            <center>
+                <img src="https://www.wohnmobilverleih-innviertel.at/wp-content/uploads/2020/07/wetter.jpg"
+                    alt="Bank logo" class="nav__logo" id="logo" />
+                <h1 class="heading">
+                    Weather App</h1>
+            </center>
+
+
+            <form>
+                <input class="giris" type="text" placeholder="🔍 Search for a city" autofocus>
+
+                <button class="buton" id="locate"><img src="./img/compass-5153514_960_720.jpg" alt=""
+                        class="compass"></button>
+                <button class="btn" id="search" type="submit">SEARCH</button>
+                <span class="msg"></span>
+            </form><br>
+
+
+            <div class="right-container" id="lang">
+                <button type="button" id="clear-all">Clear All</button>
+
+                <img id="de" src="./img/international-2681270_960_720.jpg" alt="German" width="70" />
+                <br>
+                <img id="en" src="./img/flag-4537017_960_720.png" alt="English" width="70" />
+            </div>
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <p>Coded by <span>🌞</span>Ozlem</a>
+            </p>
+        </div>
+    </footer>
+    <script src="./weather.js"></script>
+</body>
+
+</html>
