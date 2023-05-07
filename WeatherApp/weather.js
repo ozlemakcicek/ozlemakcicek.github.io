@@ -136,7 +136,7 @@ const getWeatherDataFromApi = async () => {
       }
       setInterval(() => {
         msgSpan.innerText = "";
-      }, 3000);
+      }, 5000);
     }
   } catch (error) {
     if (lang == "de") {
